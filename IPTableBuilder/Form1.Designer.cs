@@ -56,6 +56,7 @@
             this.boxSubnetCount = new System.Windows.Forms.TextBox();
             this.boxClassType = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gridSubnets)).BeginInit();
             this.SuspendLayout();
             // 
@@ -315,12 +316,23 @@
             this.label8.TabIndex = 16;
             this.label8.Text = "Class Type:";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(888, 368);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(157, 29);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "Check For Erros";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // formIPTableBuilder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.ClientSize = new System.Drawing.Size(1057, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.boxClassType);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.boxSubnetCount);
@@ -375,6 +387,7 @@
         private System.Windows.Forms.TextBox boxSubnetCount;
         private System.Windows.Forms.TextBox boxClassType;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button button1;
     }
 }
 
